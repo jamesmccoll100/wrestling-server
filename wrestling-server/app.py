@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'wrestling-arena-secret'
 socketio = SocketIO(app, cors_allowed_origins='*')
 
-GAME_COMMAND = ['python3', '-u', 'WrestlingMenu.py']
+GAME_COMMAND = ['python3', '-u', 'Menu6.py']
 COLS, ROWS = 90, 30
 
 sessions = {}   # sid → (pid, fd)
